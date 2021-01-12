@@ -1,3 +1,9 @@
+/*
+Este es el contesto de la aplicacion, todo lo que queramos compartir
+entre componentes lo almacenaremos aqui.
+Como dato el hook de useEffect en este componente sera el primero que se 
+inicialice dentro de nuestra aplicación
+*/
 import React, { createContext, useState, useEffect } from 'react'
 import { aut } from '../configuraciones/firebaseConfig'
 export const Contexto = createContext()
